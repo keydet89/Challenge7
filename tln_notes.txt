@@ -1,0 +1,232 @@
+
+
+Tue Nov 15 21:21:09 2022 Z
+*System Shutdown begins
+
+Tue Nov 15 21:21:05 2022 Z
+  MFT_SI                     - .A.. [58880] C:\Windows\System32\en-US\Taskmgr.exe.mu <Flags: Archive> 
+  BAM                        - \Device\HarddiskVolume1\Windows\System32\Taskmgr.exe (S-1-5-21-321011808-3761883066-353627080-1000)
+  
+
+
+Tue Nov 15 21:20:58 2022 Z
+  MFT_SI                     - .A.. [56] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+  MFT_SI                     - .A.. [3072] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\5f7b5f1e01b83767.automaticDestinations-ms <Flags: Archive> 
+  MFT_SI                     - .A.. [7168] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms <Flags: Archive> 
+  USNJ                       - SysInternals.exe: File_Delete,Close  FileRef: 124567/4  ParentRef: 1798/1
+  MFT_SI                     - MAC. [152] C:\Users\Public\Downloads <Flags: R/O> 
+  MFT_SI                     - .A.. [56] C:\Users\Public <Flags: R/O> 
+  *AppID: 5f7b5f1e01b83767 - Quick Access
+  
+  
+Tue Nov 15 21:19:36 2022 Z
+  BAM                        - \Device\HarddiskVolume1\Users\Public\Downloads\SysInternals.exe (S-1-5-21-321011808-3761883066-353627080-1000)
+
+ 
+Tue Nov 15 21:19:25 2022 Z
+  MFT_SI                     - .A.. [6266] C:\Windows\System32\WDI\LogFiles\StartupInfo\S-1-5-21-321011808-3761883066-353627080-1000_StartupInfo4.xml <Flags: Archive> 
+  USNJ                       - SC.EXE-4502142D.pf: File_Delete,Close  FileRef: 27789/3  ParentRef: 80816/1
+  MFT_SI                     - .A.. [152] C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp <Flags: R/O> 
+  USNJ                       - SC.EXE-4502142D.pf: Data_Extend,File_Create  FileRef: 27789/3  ParentRef: 80816/1
+  USNJ                       - CONHOST.EXE-3218E401.pf: File_Create  FileRef: 27935/3  ParentRef: 80816/1
+  USNJ                       - CMD.EXE-EABFE48B.pf: File_Create  FileRef: 27892/3  ParentRef: 80816/1
+  REG                        - M... HKLM/Software/Microsoft/Windows/CurrentVersion/Explorer/StartupApproved/Run32 
+  USNJ                       - CMD.EXE-EABFE48B.pf: File_Delete,Close  FileRef: 27892/3  ParentRef: 80816/1
+  USNJ                       - CMD.EXE-EABFE48B.pf: Data_Extend,Close,File_Create  FileRef: 27892/3  ParentRef: 80816/1
+  USNJ                       - NET.EXE-7F832A3A.pf: Data_Extend,Close,File_Create  FileRef: 27784/3  ParentRef: 80816/1
+  MFT_SI                     - .A.. [73728] C:\Windows\WinSxS\wow64_microsoft-windows-s..dlinetool.resources_31bf3856ad364e35_10.0.177631_en-us_0117e77302d81d40\sc.exe.mui <Flags: Archive> 
+  EVTX     MSEDGEWIN10       - Service Control Manager/7040;VMWare IO Helper Service,demand start,auto start,VMwareIOHelperService
+  USNJ                       - NET.EXE-7F832A3A.pf: File_Create  FileRef: 27784/3  ParentRef: 80816/1
+  USNJ                       - SC.EXE-4502142D.pf: Data_Extend,Close,File_Create  FileRef: 27789/3  ParentRef: 80816/1
+  MFT_SI                     - .A.. [152] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup <Flags: R/O> 
+  USNJ                       - CONHOST.EXE-3218E401.pf: File_Delete,Close  FileRef: 27935/3  ParentRef: 80816/1
+  MFT_SI                     - .A.. [4096] C:\Windows\System32\en-US\Conhost.exe.mu <Flags: Archive> 
+  MFT_SI                     - .A.. [60928] C:\Windows\SysWOW64\sc.exe <Flags: Archive> 
+  REG                        - M... HKLM/Software/Microsoft/Windows/CurrentVersion/Explorer/StartupApproved 
+  USNJ                       - NET.EXE-7F832A3A.pf: File_Delete,Close  FileRef: 27784/3  ParentRef: 80816/1
+  USNJ                       - SC.EXE-4502142D.pf: File_Create  FileRef: 27789/3  ParentRef: 80816/1
+  REG                        - M... HKLM/System/ControlSet001/Services/VMwareIOHelperService 
+  USNJ                       - CONHOST.EXE-3218E401.pf: Data_Extend,File_Create  FileRef: 27935/3  ParentRef: 80816/1
+  USNJ                       - CMD.EXE-EABFE48B.pf: Data_Extend,File_Create  FileRef: 27892/3  ParentRef: 80816/1
+  BAM                        - \Device\HarddiskVolume1\Windows\System32\conhost.exe (S-1-5-21-321011808-3761883066-353627080-1000)
+  REG                        - M... HKLM/Software/Microsoft/Windows/CurrentVersion/Explorer/StartupApproved/StartupFolder 
+  USNJ                       - CONHOST.EXE-3218E401.pf: Data_Extend,Close,File_Create  FileRef: 27935/3  ParentRef: 80816/1
+  MFT_SI                     - .A.. [847040] C:\BGinfo\BGINFO.EXE <Flags: Archive> 
+  MFT_SI                     - .A.. [624640] C:\Windows\WinSxS\wow64_microsoft-windows-a..ence-infrastructure_31bf3856ad364e35_10.0.17763292_none_53f5289306efc67a\apphelp.dll <Flags: Archive> 
+  USNJ                       - NET.EXE-7F832A3A.pf: Data_Extend,File_Create  FileRef: 27784/3  ParentRef: 80816/1  
+  
+  
+Tue Nov 15 21:19:23 2022 Z  
+  EVTX     MSEDGEWIN10       - VMwareIOHelperService/0;VMwareIOHelperService,VMwareIOHelperService in OnStart
+  
+  
+Tue Nov 15 21:19:22 2022 Z
+  MFT_FN                     - MACB [2486] [DEL] ORPHAN\VMTOOLSIO.EXE-B05FE979.pf <Flags: Archive,Not Indexed> 
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: Data_Extend,Close,File_Create  FileRef: 82668/6  ParentRef: 80816/1
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: File_Create  FileRef: 82668/6  ParentRef: 80816/1
+  EVTX     MSEDGEWIN10       - Service Control Manager/7045;VMWare IO Helper Service,c:\Windows\vmtoolsIO.exe,user mode service,demand start,NT AUTHORITY\SYSTEM
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: Data_Extend,File_Create  FileRef: 82668/6  ParentRef: 80816/1
+  MFT_SI                     - MACB [2486] [DEL] ORPHAN\VMTOOLSIO.EXE-B05FE979.pf <Flags: Archive,Not Indexed> 
+  
+ 
+Tue Nov 15 21:19:21 2022 Z
+  USNJ                       - SysInternals.exe.51m0nh7.partial: File_Delete,Close  FileRef: 124561/3  ParentRef: 124560/3
+  
+  
+Tue Nov 15 21:19:17 2022 Z
+  USNJ                       - settings.dat: Data_Overwrite  FileRef: 83973/1  ParentRef: 83970/1
+  USNJ                       - settings.dat.LOG1: Data_Overwrite  FileRef: 84229/2  ParentRef: 83970/1
+  USNJ                       - VMwareUpdate[1].exe: Data_Extend,File_Create  FileRef: 81277/4  ParentRef: 87490/2
+  REG                        - M... HKLM/Software/WOW6432Node/Microsoft/DownloadManager 
+  REG                        - M... HKLM/Software/WOW6432Node/Microsoft
+  REG                        - M... AppCompatCache - C:\Windows\vmtoolsIO.exe
+  MFT_SI                     - .A.. [56] C:\Users\IEUser\AppData\Local\Microsoft\Windows\INetCache\IE <Flags: Hidden,System,Not Indexed> 
+  MFT_FN                     - MACB [289280] C:\Windows\vmtoolsIO.exe <Flags: Archive> 
+  MFT_SI                     - M.CB [289280] C:\Windows\vmtoolsIO.exe <Flags: Archive> 
+  USNJ                       - settings.dat: Data_Overwrite  FileRef: 83958/1  ParentRef: 83955/1
+  USNJ                       - settings.dat.LOG1: Data_Overwrite  FileRef: 84227/1  ParentRef: 83955/1
+  USNJ                       - vmtoolsIO.exe: File_Create  FileRef: 82666/4  ParentRef: 1803/1
+  MFT_SI                     - MAC. [56] C:\Users\IEUser\AppData\Local\Microsoft\Windows\INetCache\IE\WNC4UP6F <Flags: Hidden,System,Not Indexed> 
+  USNJ                       - VMwareUpdate[1].exe: File_Create  FileRef: 81277/4  ParentRef: 87490/2
+  USNJ                       - vmtoolsIO.exe: Data_Extend,File_Create  FileRef: 82666/4  ParentRef: 1803/1
+  MFT_SI                     - MACB [289280] C:\Users\IEUser\AppData\Local\Microsoft\Windows\INetCache\IE\WNC4UP6F\VMwareUpdate[1].exe <Flags: Archive,Not Indexed> 
+  MFT_FN                     - MACB [289280] C:\Users\IEUser\AppData\Local\Microsoft\Windows\INetCache\IE\WNC4UP6F\VMwareUpdate[1].exe <Flags: Archive,Not Indexed>
+  USNJ                       - vmtoolsIO.exe: Data_Extend,Close,File_Create  FileRef: 82666/4  ParentRef: 1803/1
+  MFT_SI                     - M.C. [400] C:\Windows 
+  USNJ                       - VMwareUpdate[1].exe: Data_Extend,Close,File_Create  FileRef: 81277/4  ParentRef: 87490/2
+   
+*VMwareUpdate[1].exe - internal file name listed as "vmtoolsIO.exe".
+  
+82666/4  C:\Windows\vmtoolsIO.exe
+  Size: 289280
+  Flags    : Archive
+    M: Tue Nov 15 21:19:17 2022 Z
+    A: Tue Nov 15 21:19:45 2022 Z
+    C: Tue Nov 15 21:19:17 2022 Z
+    B: Tue Nov 15 21:19:17 2022 Z
+  FN: vmtoolsIO.exe  Parent Ref: 1803/1
+  Namespace: 1
+    M: Tue Nov 15 21:19:17 2022 Z
+    A: Tue Nov 15 21:19:17 2022 Z
+    C: Tue Nov 15 21:19:17 2022 Z
+    B: Tue Nov 15 21:19:17 2022 Z
+  FN: VMTOOL~1.EXE  Parent Ref: 1803/1
+  Namespace: 2
+    M: Tue Nov 15 21:19:17 2022 Z
+    A: Tue Nov 15 21:19:17 2022 Z
+    C: Tue Nov 15 21:19:17 2022 Z
+    B: Tue Nov 15 21:19:17 2022 Z  
+  
+Tue Nov 15 21:19:01 2022 Z
+  AmCache                    - Key LastWrite - c:\users\public\downloads\sysinternals.exe (fa1002b02fc5551e075ec44bb4ff9cc13d563dcf)
+
+Tue Nov 15 21:19:00 2022 Z
+  USNJ                       - SysInternals.exe: Close,Stream_Change  FileRef: 124567/4  ParentRef: 1798/1
+  REG                       ieuser - [Program Execution] UserAssist - C:\Users\Public\Downloads\SysInternals.exe (1)
+  USNJ                       - SysInternals.exe: Stream_Change  FileRef: 124567/4  ParentRef: 1798/1
+  MFT_SI                     - .AC. [57344] [DEL] ORPHAN\SysInternals.exe <Flags: Archive> 
+
+Tue Nov 15 21:18:53 2022 Z
+  USNJ                       - SysInternals.exe: Object_ID_Change,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: Object_ID_Change  FileRef: 124567/4  ParentRef: 1798/1
+  REG						ieuser - shellbags - C:\Users\Public\Downloads
+
+Tue Nov 15 21:18:51 2022 Z
+  USNJ                       - SysInternals.exe: Rename_New_Name,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Data_Truncation  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: File_Create  FileRef: 124563/3  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: Close,File_Create  FileRef: 124563/3  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Data_Extend,Data_Overwrite,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: File_Create  FileRef: 124563/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Security_Change  FileRef: 124567/4  ParentRef: 1798/1
+  MFT_FN                     - MACB [57344] [DEL] ORPHAN\SysInternals.exe <Flags: Archive> 
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Named_Data_Extend,Close,Stream_Change  FileRef: 124567/4  ParentRef: 1798/1
+  REG                        - M... AppCompatCache - C:\Users\Public\Downloads\SysInternals.exe
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Data_Truncation,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Close,File_Create  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Named_Data_Extend,Stream_Change  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Rename_Old_Name  FileRef: 124567/4  ParentRef: 1798/1
+  MFT_SI                     - M..B [57344] [DEL] ORPHAN\SysInternals.exe <Flags: Archive> 
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Named_Data_Extend  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: File_Create  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: Rename_New_Name  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Security_Change,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: File_Delete,Close  FileRef: 124563/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: File_Delete,Close  FileRef: 124563/3  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe: Close,File_Create  FileRef: 124563/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Named_Data_Extend,Close  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Stream_Change  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Data_Extend,Data_Overwrite  FileRef: 124567/4  ParentRef: 1798/1
+  USNJ                       - SysInternals.exe.rojkz1j.partial: Data_Extend  FileRef: 124567/4  ParentRef: 1798/1
+
+Tue Nov 15 21:18:40 2022 Z
+  USNJ                       - SysInternals[1].exe: Data_Extend,File_Create  FileRef: 124558/4  ParentRef: 124557/4
+  MFT_SI                     - MACB [57344] C:\Users\IEUser\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AC\#!001\MicrosoftEdge\Cache\WMFWC1O7\SysInternals[1].exe <Flags: Archive,Not Indexed> 
+  MFT_FN                     - MACB [57344] C:\Users\IEUser\AppData\Local\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AC\#!001\MicrosoftEdge\Cache\WMFWC1O7\SysInternals[1].exe <Flags: Archive,Not Indexed> 
+  USNJ                       - SysInternals[1].exe: File_Create  FileRef: 124558/4  ParentRef: 124557/4
+  USNJ                       - SysInternals[1].exe: Data_Extend,Close,File_Create  FileRef: 124558/4  ParentRef: 124557/4
+  USNJ                       - SysInternals.exe.51m0nh7.partial: Security_Change,Close  FileRef: 124561/3  ParentRef: 124560/3
+  USNJ                       - SysInternals.exe.51m0nh7.partial: Data_Extend,Close  FileRef: 124561/3  ParentRef: 124560/3
+  MFT_FN                     - MACB [57344] [DEL] ORPHAN\SysInternals.exe.51m0nh7.partial <Flags: Archive> 
+  MFT_SI                     - MACB [57344] [DEL] ORPHAN\SysInternals.exe.51m0nh7.partial <Flags: Archive> 
+  USNJ                       - SysInternals.exe.51m0nh7.partial: File_Create  FileRef: 124561/3  ParentRef: 124560/3
+  USNJ                       - SysInternals.exe.51m0nh7.partial: Security_Change  FileRef: 124561/3  ParentRef: 124560/3
+  USNJ                       - SysInternals.exe.51m0nh7.partial: Data_Extend  FileRef: 124561/3  ParentRef: 124560/3
+  USNJ                       - SysInternals.exe.51m0nh7.partial: Close,File_Create  FileRef: 124561/3  ParentRef: 124560/3
+  
+
+
+Tue Nov 15 21:17:03 2022 Z
+  USNJ                       - ConsoleHost_history.txt: Data_Extend,Close  FileRef: 27754/2  ParentRef: 27752/2
+  MFT_SI                     - .A.. [288] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
+  USNJ                       - hosts: Data_Extend,Close  FileRef: 42564/1  ParentRef: 3578/1
+  USNJ                       - ConsoleHost_history.txt: Data_Extend  FileRef: 27754/2  ParentRef: 27752/2
+  USNJ                       - hosts: Data_Extend  FileRef: 42564/1  ParentRef: 3578/1
+  MFT_SI                     - M.C. [896] C:\Windows\System32\drivers\etc\hosts <Flags: Archive> 
+  MFT_SI                     - MAC. [622] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt <Flags: Archive>  
+
+*ConsoleHost_history.txt content  
+Add-MpPreference -ExclusionPath 'C:'
+Set-MpPreference -DisableRealtimeMonitoring $true
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows -Name WindowsUpdate -Force
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate -Name AU -Force
+New-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU -Name NoAutoUpdate -PropertyType DWord -Value 1 -Force
+Add-Content -Path $env:windir\System32\drivers\etc\hosts -Value "`n192.168.15.10`twww.malware430.com" -Force
+Add-Content -Path $env:windir\System32\drivers\etc\hosts -Value "`n192.168.15.10`twww.sysinternals.com" -Force  
+
+
+Tue Nov 15 21:17:01 2022 Z
+  USNJ                       - ConsoleHost_history.txt: Data_Extend  FileRef: 27754/2  ParentRef: 27752/2
+  
+  
+Tue Nov 15 21:17:00 2022 Z
+  USNJ                       - PowerShell: File_Create  FileRef: 27425/13  ParentRef: 83451/1
+  MFT_SI                     - .A.. [56] C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Defender
+  USNJ                       - PowerShell: Close,File_Create  FileRef: 27425/13  ParentRef: 83451/1
+  MFT_SI                     - .A.. [512] C:\Windows\System32\WindowsPowerShell\v1.0\Modules\BitsTransfer <Flags: System> 
+  USNJ                       - ConsoleHost_history.txt: Data_Extend,Close,File_Create  FileRef: 27754/2  ParentRef: 27752/2
+  MFT_SI                     - .A.. [704] C:\Windows\WinSxS\amd64_windows-defender-management-powershell_31bf3856ad364e35_10.0.17763.1none_d48944eff97b9138\MSFT_M.WDOScan.cdxml <Flags: Archive> 
+  MFT_SI                     - .A.. [89104] C:\Windows\WinSxS\amd64_windows-defender-service_31bf3856ad364e35_10.0.17763.1_none_b66c0cb3ef5ffee\MsMpCom.dll <Flags: Archive> 
+  USNJ                       - ConsoleHost_history.txt: Data_Extend,File_Create  FileRef: 27754/2  ParentRef: 27752/2
+  MFT_SI                     - ...B [622] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt <Flags: Archive> 
+  REG                        - M... HKLM/Software/Microsoft/Windows Defender/Exclusions/Paths 
+  USNJ                       - PSReadLine: Close,File_Create  FileRef: 27752/2  ParentRef: 27425/13
+  USNJ                       - Microsoft-Windows-PowerShell   0perational.evtx: Data_Overwrite  FileRef: 83842/1  ParentRef: 4667/1
+  MFT_SI                     - .A.. [56] C:\Windows\System32\WindowsPowerShell\v1.0\Modules\BranchCache <Flags: System> 
+  MFT_FN                     - MACB [288] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
+  MFT_SI                     - .A.. [56] C:\Windows\System32\WindowsPowerShell\v1.0\Modules\BitLocker <Flags: System> 
+  MFT_SI                     - .A.. [472] C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Appx
+  MFT_FN                     - MACB [622] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt <Flags: Archive> 
+  MFT_FN                     - MACB [256] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell
+  USNJ                       - PSReadLine: File_Create  FileRef: 27752/2  ParentRef: 27425/13  
+  USNJ                       - ConsoleHost_history.txt: File_Create  FileRef: 27754/2  ParentRef: 27752/2
+  MFT_SI                     - .A.. [1395] C:\Windows\WinSxS\amd64_windows-defender-management-powershell_31bf3856ad364e35_10.0.17763.1none_d48944eff97b9138\Defender.psd1 <Flags: Archive> 
+  EVTX     MSEDGEWIN10       - Microsoft-Windows-WMI-Activity/5857;ProtectionManagement,0x0,wmiprvse.exe,940,%ProgramFiles%\Windows Defender\ProtectionManagement.dll
+  MFT_SI                     - M.CB [288] C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
+  
+  
+Tue Nov 15 21:16:08 2022 Z
+  EVTX     MSEDGEWIN10       - Microsoft-Windows-Security-Auditing/4624;S-1-5-18,MSEDGEWIN10$,WORKGROUP,0x3e7,S-1-5-21-321011808-3761883066-353627080-1000,IEUser,MSEDGEWIN10,0x29b94,2,User32 ,Negotiate,MSEDGEWIN10,{00000000-0000-0000-0000-000000000000},-,-,0,0x670,C:\Windows\System32\svchost.exe,127.0.0.1,0,%1833,-,-,-,%1843,0x29bcf,%1842
+  EVTX     MSEDGEWIN10       - Microsoft-Windows-TerminalServices-LocalSessionManager/41;MSEDGEWIN10\IEUser,1
+  USNJ                       - L.IEUser.cdpresource: Data_Overwrite  FileRef: 83574/1  ParentRef: 83572/1
+  EVTX     MSEDGEWIN10       - Microsoft-Windows-TerminalServices-LocalSessionManager/21;MSEDGEWIN10\IEUser,1,LOCAL  

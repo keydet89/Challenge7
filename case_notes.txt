@@ -1,0 +1,87 @@
+
+https://www.ashemery.com/dfir.html
+Challenge 7
+
+Scenario: The user downloaded what they thought was the SysInternals tool suite, double-clicked it, 
+but the tools did not open and were not accessible. Since that time, the user has noticed that the 
+system has "slowed down" and become less and less responsive. Goal is to determine what happened, and when.
+
+
+Tue Nov 15 21:16:08 2022 Z - IEUser logs into console
+Tue Nov 15 21:17:03 2022 Z - IEUser runs Powershell commans to modify Defender, Registry, hosts file; hosts file mods
+                             force sysinternals.com and malware430.com to resolve to an internal (192.168.x.x) IP address
+Tue Nov 15 21:18:40 2022 Z - IEUser downloads SysInternals.exe vie MSEdge; files is copied to C:\Public\Downloads folder
+Tue Nov 15 21:19:00 2022 Z - IEUser double-clicks C:\Users\Public\Downloads\SysInternals.exe
+Tue Nov 15 21:19:17 2022 Z - IEUser downloads http://www.malware430.com/html/VMwareUpdate.exe 
+Tue Nov 15 21:19:22 2022 Z - vmtoolsio.exe installed as a service
+Tue Nov 15 21:20:58 2022 Z - C:\Users\Public\Downloads\SysInternals.exe deleted
+Tue Nov 15 21:21:05 2022 Z - Task Manager launched by IEUser
+Tue Nov 15 21:21:09 2022 Z - System begins to shutdown
+
+
+Case Notes
+--------------------------------------------------------------------------------------------------------
+Converted .e01 image to .dd format, for better accessibilty of tools.
+
+AmCache.hve
+c:\users\public\downloads\sysinternals.exe  LastWrite: 2022-11-15 21:19:01Z
+Hash: fa1002b02fc5551e075ec44bb4ff9cc13d563dcf
+*https://www.virustotal.com/gui/file/72e6d1728a546c2f3ee32c063ed09fa6ba8c46ac33b0dd2e354087c1ad26ef48
+
+ShimCache
+C:\Users\Public\Downloads\SysInternals.exe  2022-11-15 21:18:51
+
+*Visual recon of file system via FTK Imager indicates that SysInternals.exe file is deleted.
+
+BAM
+S-1-5-21-321011808-3761883066-353627080-1000
+  2022-11-15 21:21:09Z - Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy
+  2022-11-15 21:21:09Z - Microsoft.Windows.Cortana_cw5n1h2txyewy
+  2022-11-15 21:21:09Z - Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+  2022-11-15 21:21:09Z - Microsoft.WindowsStore_8wekyb3d8bbwe
+  2019-03-19 13:18:55Z - windows.immersivecontrolpanel_cw5n1h2txyewy
+  2022-11-15 21:21:09Z - \Device\HarddiskVolume1\Windows\System32\ApplicationFrameHost.exe
+  2022-11-15 21:21:09Z - \Device\HarddiskVolume1\Windows\explorer.exe
+  2022-11-15 21:21:09Z - \Device\HarddiskVolume1\Users\IEUser\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+  2022-11-15 21:17:07Z - \Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  2022-11-15 21:17:12Z - InputApp_cw5n1h2txyewy
+  2022-11-15 21:19:25Z - \Device\HarddiskVolume1\Windows\System32\conhost.exe
+  2022-11-15 21:17:08Z - \Device\HarddiskVolume1\Windows\System32\notepad.exe
+  2022-11-15 21:18:51Z - \Device\HarddiskVolume1\Windows\System32\PickerHost.exe
+  2022-11-15 21:19:00Z - Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy
+  2022-11-15 21:19:36Z - \Device\HarddiskVolume1\Users\Public\Downloads\SysInternals.exe
+  2022-11-15 21:21:05Z - \Device\HarddiskVolume1\Windows\System32\Taskmgr.exe
+  
+UserAssist:
+2022-11-15 21:19:00Z
+  C:\Users\Public\Downloads\SysInternals.exe (1)
+
+User shellbags show access to Public\Downloads folder
+Entries in cmdlg32
+MFT & $J provide indications of what happened and when
+
+Carve unallocated space from image
+blkls -f ntfs -A -i raw f:\case\image.001 > f:\case\unalloc.txt
+be_rec -e all -o f:\case\be f:\case\unalloc.txt
+
+Created events file from:
+MFT, USN change journal, selected WEVTX, System & Software hives
+Added selected RR plugin TLN output (see above) - BAM, ShimCache, AmCache, UserAssist
+Created timeline
+
+From ieuser WebCacheV01.dat
+D:\Tools>strings f:\case\ieuser\webcachev01.dat | find "http" | find "sysint" /i
+Visited: IEUser@http://www.sysinternals.com/SysInternals.exe
+http://www.sysinternals.com/SysInternals.exe
+Visited: IEUser@http://www.sysinternals.com/SysInternals.exe
+http://www.sysinternals.com/SysInternals.exe
+
+D:\Tools>strings f:\case\ieuser\webcachev01.dat | find "http" /i | find "vmwareupdate" /i
+http://www.malware430.com/html/VMwareUpdate.exe
+
+F:\case\be>findstr /C:"malware430" /i *.txt - no results
+
+Using NirSoft ESEDatabaseViewer:
+http://www.sysinternals.com/SysInternals.exe - last accessed: 15 Nov 2022, 21:18:40
+http://www.malware430.com/html/VMwareUpdate.exe - last accessed: 15 Nov 2022, 21:19:17
+

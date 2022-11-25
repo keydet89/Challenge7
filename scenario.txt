@@ -1,0 +1,5 @@
+
+
+Scenario: 
+The scenario is the user thought he downloaded SysInternals tools and used it, but something 
+unknown happened and is now degrading the performance of his system.
