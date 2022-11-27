@@ -28,6 +28,36 @@ c:\users\public\downloads\sysinternals.exe  LastWrite: 2022-11-15 21:19:01Z
 Hash: fa1002b02fc5551e075ec44bb4ff9cc13d563dcf
 *https://www.virustotal.com/gui/file/72e6d1728a546c2f3ee32c063ed09fa6ba8c46ac33b0dd2e354087c1ad26ef48
 
+Interesting Strings
+IE Agent 11.0
+c:\Windows\vmtoolsIO.exe
+c:\Windows\
+/C c:\Windows\vmtoolsIO.exe -install && net start VMwareIOHelperService && sc config VMwareIOHelperService start= auto
+cmd.exe
+open
+c:\Windows\Temp\Hex2Dec.zip
+VS_VERSION_INFO
+StringFileInfo
+040904b0
+CompanyName
+SysInternals, Inc.
+FileDescription
+SysInternals Suite Downloader
+FileVersion
+2.0.0.1
+InternalName
+SysInternals.exe
+LegalCopyright
+Copyright (C) 2020
+OriginalFilename
+SysInternals.exe
+ProductName
+SysInternals Suite Downloader
+ProductVersion
+2.0.0.1
+VarFileInfo
+
+
 ShimCache
 C:\Users\Public\Downloads\SysInternals.exe  2022-11-15 21:18:51
 

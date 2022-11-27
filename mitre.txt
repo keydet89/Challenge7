@@ -1,0 +1,49 @@
+MITRE ATT&CK
+
+Initial Access
+Trusted Relationship - T1199 - Valid, trusted user modified /etc/hosts file, downloaded
+	and executed malicious software
+
+Execution
+User Execution/Malicious File - T1204.002 - user launched SysInternals.exe (UserAssist)
+
+
+Persistence
+Create/Modify System Process/Windows Service - T1543.003 - VMToolsIO added as service
+
+
+Privilege Escalation
+None Observed
+
+
+Defense Evasion
+Impair Defenses/Disable or Modify Tools - T1562.001 - modify /etc/hosts file
+Indicator Removal/File Deletion - T1070.004 - delete *.pf files
+
+
+Credential Access
+None Observed
+
+
+Discovery
+None Observed
+
+
+Lateral Movement
+None Observed
+
+
+Collection
+None Observed
+
+
+Command and Control
+None Observed
+
+
+Exfiltration 
+None Observed
+
+
+Impact 
+Data Destruction - T1485 - delete *.pf files

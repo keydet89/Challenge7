@@ -1,0 +1,29 @@
+USN change journal overlay for VMToolsIO.exe
+
+
+2022-11-15 21:19:23Z
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: File_Delete,Close  FileRef: 82668/6  ParentRef: 80816/1
+#VMToolsIO Prefetch file deleted
+
+
+2022-11-15 21:19:22Z
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: Data_Extend,Close,File_Create  FileRef: 82668/6  ParentRef: 80816/1
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: Data_Extend,File_Create  FileRef: 82668/6  ParentRef: 80816/1
+  USNJ                       - VMTOOLSIO.EXE-B05FE979.pf: File_Create  FileRef: 82668/6  ParentRef: 80816/1
+#VMToolsIO Prefetch file created; corresponds to first time the file was executed
+
+
+
+2022-11-15 21:19:17Z
+  USNJ                       - vmtoolsIO.exe: Data_Extend,Close,File_Create  FileRef: 82666/4  ParentRef: 1803/1
+  USNJ                       - vmtoolsIO.exe: Data_Extend,File_Create  FileRef: 82666/4  ParentRef: 1803/1
+  USNJ                       - vmtoolsIO.exe: File_Create  FileRef: 82666/4  ParentRef: 1803/1
+#VMToolsIO.exe created on the system
+  
+  
+ 
+
+
+
+
+ 
